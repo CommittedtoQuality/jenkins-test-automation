@@ -11,7 +11,7 @@ describe('Responsive Testing', () => {
         // it will change the viewport
         viewports.forEach((view) => {
             cy.viewport(view.width, view.height)
-            cy.visit('https://www.jenkins.io/')
+            cy.visit('/')
 
         })
     })

@@ -7,7 +7,7 @@ describe('Responsive Testing', () => {
         // it will change the viewport
         presets.forEach((device) => {
             cy.viewport(device)
-            cy.visit('https://www.jenkins.io/')
+            cy.visit('/')
         })
     })
     
